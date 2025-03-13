@@ -1,0 +1,19 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Job Search</title>
+  <link rel="stylesheet" href="{% static 'styles/style.css' %}">
+</head>
+<body>
+    <h1>Job Search</h1>
+    <form method="POST">
+        {% csrf_token %}
+        {{form.as_p}}
+        <button type="submit">Submit</button>
+
+    </form>
+</body>
+</html>
