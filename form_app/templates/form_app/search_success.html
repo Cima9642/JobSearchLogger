@@ -4,8 +4,13 @@
 <head>
   <meta charset="UTF-8" />
   <title>Success</title>
+  <link rel="stylesheet" href="{% static 'styles/styles.css' %}">
 </head>
 <body>
-  <h1>Hello, world!</h1>
+    <div class="success-message">
+  <h1>Success!</h1>
+  <p>Application submitted successfully!</p>
+  <a href="{% url 'home' %}">Back to Home</a>
+    </div>
 </body>
 </html>
