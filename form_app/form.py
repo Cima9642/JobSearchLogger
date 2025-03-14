@@ -1,7 +1,14 @@
 from django import forms
 from django.utils.timezone import now
+from django.forms import ModelForm
+from .models import Job
   
 class JobSearchForm(forms.Form):
+    
+    class Meta:
+        model = Job
+        fields ="__all__"
+        
     company = forms.CharField(label='Company', max_length=100)
     rating = forms.ChoiceField(
         label="Motivation",
