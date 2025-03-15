@@ -3,7 +3,7 @@ from django.utils.timezone import now
 from django.forms import ModelForm
 from .models import Job
   
-class JobSearchForm(forms.Form):
+class JobSearchForm(forms.ModelForm):
     
     class Meta:
         model = Job

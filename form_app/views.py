@@ -13,7 +13,7 @@ def search_view(request):
         form = JobSearchForm(request.POST)
         if form.is_valid():
             # TODDO: Save the form data to the database, FIX THIS!!!!!
-            # form.save()
+            form.save()
             return redirect('search-success')
     else:
         form = JobSearchForm()
