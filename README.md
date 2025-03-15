@@ -4,5 +4,5 @@ This is designed to help you keep track of your job applications, the gol is to 
 
 ### Installation
 Before installing make sure you have the latest version of Python installed and Django 5.1. If you need to get those installed follow these steps:
-[Django](https://docs.djangoproject.com/en/5.1/howto/windows/)
-[Python](https://www.pythoncentral.io/how-to-update-python/)
+- [Django](https://docs.djangoproject.com/en/5.1/howto/windows/)
+- [Python](https://www.pythoncentral.io/how-to-update-python/)
